@@ -11,7 +11,7 @@ Si un truc n'est pas clair posez la question sur le discord. Vous pouvez aussi p
 Le but est de résoudre le plus de puzzle possible. Vous utilisez le langage que vous voulez puisque les codes vont tourner **sur votre machine**. (C'est pas le cas des autres jeux de codingame, et lisp est pas un langage proposé par le site, alors que la vous pourrez utiliser lisp).
 
 Un puzzle est une grille de nombres où il faut rendre tous les nombres de la grille nuls.  
-La seule opération disponible consiste à faire glisser (verticalement ou horizontalement) un nombre d'exactement **n** cases si le nombre présent sur la case vaut **n**. Ce nombre doit être glisser vers un autre nombre non nul, et la vous devez choisir si les nombres s'ajoutent ou si ils se soustraient (et dans ce cas la valeur absolue de la soustraction est choisie). Quelque soit l'opération choisie l'endroit d'où part le nombre qui glisse vaut maintenant 0, et l'endroit d'arrivé (comme vu précédement) vaut soit l'addition soit la valeur absolue de la soustraction.
+La seule opération disponible consiste à faire glisser (verticalement ou horizontalement) un nombre d'exactement **n** cases si le nombre présent sur la case vaut **n**. Ce nombre doit être glissé vers un autre nombre non nul, et la vous devez choisir si les nombres s'ajoutent ou si ils se soustraient (et dans ce cas la valeur absolue de la soustraction est choisie). Quelque soit l'opération choisie l'endroit d'où part le nombre qui glisse vaut maintenant 0, et l'endroit d'arrivé (comme vu précédement) vaut soit l'addition soit la valeur absolue de la soustraction.
 
 Pour avoir les règles en anglais et avoir une interface graphique qui permets de bien comprendre: https://www.codingame.com/ide/puzzle/number-shifting
 
@@ -36,6 +36,8 @@ Et enfin j'obtiens ce plateau la si je les soustrait :
 Enfin si j'avais choisis de les soustraire et que je fait glisser un des 1 contre le deuxième, en choississant encore une fois de soustraire j'obtiens un plateau avec que des 0 et j'ai gagné !
 
 Par contre si j'avais choisi pour mon premier coup de les additionner alors j'ai aucun moyen de gagner.
+
+Encore une fois les règles sont écrites aussi en anglais avec une interface graphique qui permets de bien comprendre comment ça fonctionne: https://www.codingame.com/ide/puzzle/number-shifting
 
 ### Pour pouvoir participer au concours
 
@@ -93,7 +95,8 @@ first_level
 ```
 
 + Résultat on apparait sur le classement ! On a un score de 1 puisqu'on a résolu seulement le premier puzzle.  
-Le but est de résoudre le plus de puzzle possible et d'avoir un score le plus haut possible.
+Le but est de résoudre le plus de puzzle possible et d'avoir un score le plus haut possible.  
+Mettez devant votre pseudo la chaine de caracètere [symfunc] comme ça on peut facilement trouver tout le monde du serveur sur le classement global.
 
 ### Comment faire pour soumettre dans un langage différent ?
 
@@ -107,6 +110,6 @@ print("""first_level
 6 4 L -""")
 ```
 
-### Comment voir le classement de tout le monde du serveur
+### Comment voir le classement de tout le monde du serveur ?
 
 Si tout le monde mets symfunc dans son pseudo on peut voir le classmeent de tout ceux du serveur sur ce lien: https://www.codingame.com/multiplayer/optimization/number-shifting/leaderboard?column=keyword&value=symfunc
