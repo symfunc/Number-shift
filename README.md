@@ -2,6 +2,10 @@
 
 Voici le lien du concours: https://www.codingame.com/multiplayer/optimization/number-shifting
 
+Des rôles sur le discord seront attribués selon votre score. Venez donc prouver que vous saviez manier mieux que personne la programmation ^-^
+
+Si un truc n'est pas clair posez la question sur le discord. Vous pouvez aussi parler du problème entre vous et le faire ensemble. Ou alors juste en parler. Comme vous voulez.
+
 ### Explication du problème en français
 
 Le but est de résoudre le plus de puzzle possible. Vous utilisez le langage que vous voulez puisque les codes vont tourner **sur votre machine**. (C'est pas le cas des autres jeux de codingame, et lisp est pas un langage proposé par le site, alors que la vous pourrez utiliser lisp).
