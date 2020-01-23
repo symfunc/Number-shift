@@ -44,7 +44,7 @@ Je suis pas l'auteur du script.
 Donc pour exécuter le script:
 
 + D'abord récupérer ce répo:
-**git pull https://github.com/symfunc/Number-shift.git**
+**git clone https://github.com/symfunc/Number-shift.git**
 
 + Ensuite rentrez votre email et votre mot de passe de votre compte codingame dans l'entête du fichier submit.py
 
