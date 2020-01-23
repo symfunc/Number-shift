@@ -43,18 +43,19 @@ Je suis pas l'auteur du script.
 
 Donc pour exécuter le script:
 
-+ D'abord récupérez ce répo:
++ D'abord récupérer ce répo:
 **git clone https://github.com/symfunc/Number-shift.git**
 
-+ Placez vous dans le dossier Number shift: **cd Number-shift**
++ Se placer dans le dossier Number shift: **cd Number-shift**
 
-+ Ensuite rentrez votre email et votre mot de passe de votre compte codingame dans l'entête du fichier submit.py
++ Rentrer ensuite votre email et votre mot de passe de votre compte codingame dans l'entête du fichier submit.py
 
-+ Remplir dans ce même fichier comment lancer votre code. Si par exemple vous avez écrit du python pour répondre au problème et que votre fichier python se nomme mon_fichier.py alors il faudra mettre "python3 mon_fichier.py" dans la variable **program_execute**. Si par exemple vous créez un executable qui se lance en faisant ./main alors il faudra mettre "./main" dans la variable **program_execute**
++ Remplir dans ce même fichier comment lancer votre code. Si par exemple vous avez écrit du python pour répondre au problème et que votre fichier python se nomme mon_fichier.py alors il faudra mettre "python3 mon_fichier.py" dans la variable   *program_execute*. Si par exemple vous créez un executable qui se lance en faisant ./main alors il faudra mettre "./main" dans la variable *program_execute*
 
-+ Lancer votre code: **python3 submit.py**
++ Lancer votre code: **python3 submit.py**. Ca affiche des liens pour visualiser vos parties et vous indique quand votre solution est incorrecte.
 
-+ Récupérer dans _log.txt_ la solution donnée par votre programme. Le fichier ressemble un peu prêt à ça:
++ Récupérer dans _log.txt_ la solution donnée par votre programme. Ce fichier contient la solution qu'a donné votre programme sur chaque puzzle. Vous devez donc récupérer sa solution pour le dernier puzzle réussi.  
+Par exemple le fichier peut ressembler à ça:
 ```
 solution:
 first_level
@@ -79,7 +80,7 @@ pmkhklcgypoivqgfzyyuvmtsywegacwu
 6 4 L -
 ```
 
-+ Vous devez maintenant copier coller puis soumettre en PHP sur https://www.codingame.com/ide/puzzle/number-shifting ce qui permets de résoudre le dernier puzzle que vous avez réussit à résoudre. Ici on a échoué sur le niveau 2 donc il faut faire ça pour le premier niveau et copier coller ce qui suit immédiatement la ligne **solution:**. Il faut donc copier coller puis soumettre en php le code suivant :
++ Vous devez maintenant copier coller puis soumettre en PHP sur https://www.codingame.com/ide/puzzle/number-shifting ce qui permets de résoudre le dernier puzzle que vous avez réussit à résoudre. Dans ce tutoriel on a échoué sur le niveau 2 donc il faut copier coller la solution du premier niveau, c'est ce qui suit immédiatement la ligne **solution:**. Il faut donc copier coller (puis soumettre en php) le code suivant :
 ```
 first_level
 7 4 L +
@@ -87,7 +88,8 @@ first_level
 6 4 L -
 ```
 
-+ Résultat on apparait sur le classement !
++ Résultat on apparait sur le classement ! On a un score de 1 puisqu'on a résolu seulement le premier puzzle.  
+Le but est de résoudre le plus de puzzle possible et d'avoir un score le plus haut possible.
 
 ### Comment faire pour soumettre dans un langage différent ?
 
