@@ -1,4 +1,4 @@
-# Ressource-pour-numbershifting-ALGOSEC
+# Concours NUMBERSHIFT :-)
 
 Voici le lien du concours: https://www.codingame.com/multiplayer/optimization/number-shifting
 
