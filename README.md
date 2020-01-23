@@ -106,3 +106,7 @@ print("""first_level
 3 0 D -
 6 4 L -""")
 ```
+
+### Comment voir le classement de tout le monde du serveur
+
+Si tout le monde mets symfunc dans son pseudo on peut voir le classmeent de tout ceux du serveur sur ce lien: https://www.codingame.com/multiplayer/optimization/number-shifting/leaderboard?column=keyword&value=symfunc
